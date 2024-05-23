@@ -1,0 +1,27 @@
+# Install Homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> ~/.profile
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+source ~/.profile
+
+# Install DevOps tools using Homebrew
+brew install kubectx
+brew install terraform
+brew install docker
+brew install kubectl
+brew install helm
+brew install awscli
+brew install google-cloud-sdk
+brew install ansible
+brew install minikube
+brew install vault
+brew install git
+brew install jenkins
+brew install prometheus
+brew install grafana
+brew install consul
+brew install packer
+brew install kustomize
+brew install istioctl
+brew install spinnaker
+brew install terraformer
