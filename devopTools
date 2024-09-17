@@ -1,3 +1,36 @@
+Here's a simple bash script to install Homebrew on WSL:
+
+1. Create a file called `install_brew.sh`.
+2. Paste the following content into it:
+
+```bash
+#!/bin/bash
+
+# Install Homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Add Homebrew to the shell environment
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> ~/.profile
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+# Check Homebrew version
+brew --version
+```
+
+3. Save the file and give it execute permissions:
+
+```bash
+chmod +x install_brew.sh
+```
+
+4. Run the script:
+
+```bash
+./install_brew.sh
+```
+
+This script will install Homebrew and configure it for use in WSL.
+
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> ~/.profile
@@ -25,3 +58,5 @@ brew install kustomize
 brew install istioctl
 brew install spinnaker
 brew install terraformer
+
+
