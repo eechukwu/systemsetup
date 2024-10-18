@@ -1,31 +1,31 @@
-Here’s a more concise version of the ticket:
+Here’s the ticket formatted according to Jira standards:
 
-Title: Increase Memory for ProductApi App and Verify Cluster Capacity
+Title:
+Stress Test on Redis Cluster Capability
 
 Problem Statement:
-Due to recent testing failures, we need to increase the memory for the ProductApi app and check the cluster’s capacity to ensure it can handle the extra load.
+Following the failed Studio K8S testing, the Redis cluster encountered issues, returning the error: xxx. A stress test needs to be performed to evaluate the cluster’s performance under load and identify potential configuration issues.
 
 Work Involved:
 
-	•	Assess current memory usage.
-	•	Check cluster capacity to ensure space for the additional memory.
-	•	Increase memory allocation for ProductApi.
-	•	Test the app for stability after the changes.
+	•	Analyze the current Redis cluster configuration.
+	•	Perform a stress test on the Redis cluster to reproduce and examine the error.
+	•	Identify any performance bottlenecks or misconfigurations.
+	•	Recommend optimizations to improve cluster stability and performance.
 
 Test Criteria:
 
-	•	ProductApi runs without memory issues.
-	•	Cluster has sufficient capacity.
-	•	Successful deployment and test results.
+	•	Redis cluster should perform reliably under stress without errors.
+	•	Bottlenecks and misconfigurations are identified and resolved.
 
 Dependencies:
 
-	•	Access to Kubernetes monitoring tools for capacity checks.
-	•	Coordination with the testing team.
+	•	Access to the Redis cluster.
+	•	Coordination with the testing team to simulate load.
 
 Acceptance Criteria:
 
-	•	Memory is increased and stable.
-	•	Cluster has sufficient space for the added memory.
+	•	Redis cluster passes the stress test without errors.
+	•	Necessary optimizations are documented and applied as needed.
 
-This version is concise and direct, focusing on key tasks and criteria.
+This Jira-friendly format is concise and follows the standard structure for problem statements, tasks, test criteria, dependencies, and acceptance criteria.
