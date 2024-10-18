@@ -1,27 +1,31 @@
+Here’s a more concise version of the ticket:
 
-Here is a concise ticket for your task:
-
-Title: Assist Nathan Gradidge from eCom Team on Redis Cluster Configuration for His App
+Title: Increase Memory for ProductApi App and Verify Cluster Capacity
 
 Problem Statement:
-Nathan Gradidge from the eCom team has requested assistance with configuring Redis Cluster for his application. He needs guidance and support in setting up and ensuring the cluster is optimized for performance.
+Due to recent testing failures, we need to increase the memory for the ProductApi app and check the cluster’s capacity to ensure it can handle the extra load.
 
 Work Involved:
 
-	•	Assist with the Redis cluster setup.
-	•	Review the configuration for performance optimization.
-	•	Ensure the cluster integrates seamlessly with the application.
+	•	Assess current memory usage.
+	•	Check cluster capacity to ensure space for the additional memory.
+	•	Increase memory allocation for ProductApi.
+	•	Test the app for stability after the changes.
 
 Test Criteria:
 
-	•	Verify Redis cluster configuration is complete.
-	•	Confirm that the application is interacting with Redis without any issues.
+	•	ProductApi runs without memory issues.
+	•	Cluster has sufficient capacity.
+	•	Successful deployment and test results.
 
 Dependencies:
 
-	•	Access to the Redis cluster setup.
-	•	Coordination with Nathan for application-specific configurations.
+	•	Access to Kubernetes monitoring tools for capacity checks.
+	•	Coordination with the testing team.
 
 Acceptance Criteria:
 
-	•	Redis cluster is fully configured and functioning as expected for Nathan’s application.
+	•	Memory is increased and stable.
+	•	Cluster has sufficient space for the added memory.
+
+This version is concise and direct, focusing on key tasks and criteria.
