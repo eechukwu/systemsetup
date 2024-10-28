@@ -1,13 +1,1 @@
-
-Here are brief responses for each question:
-
-	1.	What’s her strength?
-	•	She is quick to grasp new cloud concepts and applies them effectively in her tasks.
-	2.	What have you been impressed by her?
-	•	I’m impressed by her dedication to learning and her willingness to take on new challenges.
-	3.	What could the individual improve further?
-	•	Gaining more experience in troubleshooting complex issues would further strengthen her skills.
-	4.	Please share an example of when the individual demonstrated strong interpersonal skills.
-	•	During a recent project issue, she communicated clearly with the team, helping us resolve it smoothly and efficiently.
-	5.	Does this individual align with company values?
-	•	Absolutely, she demonstrates a commitment to growth, collaboration, and continuous improvement.
+No, he didn’t. However, he discussed numerous potential improvements to the system, including changes to the Terraform code and the use of additional AWS services like NACL, CDN, Terraform modules, and NAT Gateway to enhance functionality. He demonstrated an in-depth knowledge of these technologies.
