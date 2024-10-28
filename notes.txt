@@ -1,1 +1,1 @@
-No, he didn’t. However, he discussed numerous potential improvements to the system, including changes to the Terraform code and the use of additional AWS services like NACL, CDN, Terraform modules, and NAT Gateway to enhance functionality. He demonstrated an in-depth knowledge of these technologies.
+This is a bit tricky to assess since the candidate didn’t complete any of the Terraform exercises. However, as I mentioned earlier, he does have some knowledge of Cloud Technology and Infrastructure. It’s also worth noting that he didn’t put much effort into trying the exercises.
