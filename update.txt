@@ -1,0 +1,9 @@
+Judging from the logs, I don’t think this server is currently being used.
+
+Below are my findings:
+	•	The log files contain three folders: A, B, and C.
+	•	Folders A and B are currently empty and contain no files.
+	•	Folder C contains some files, but none appear to be app-specific logs.
+	•	All the logs contain similar information.
+
+I will be reaching out to the Warehouse and Retail teams to confirm the above before disabling the app.
