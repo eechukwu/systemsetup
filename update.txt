@@ -1,9 +1,25 @@
-Judging from the logs, I don’t think this server is currently being used.
+Sure! Here’s the plan with the specific web pages for the Helm charts we are checking.
 
-Below are my findings:
-	•	The log files contain three folders: A, B, and C.
-	•	Folders A and B are currently empty and contain no files.
-	•	Folder C contains some files, but none appear to be app-specific logs.
-	•	All the logs contain similar information.
+Web Pages We Are Using (Examples):
+Argo CD Helm chart page:
 
-I will be reaching out to the Warehouse and Retail teams to confirm the above before disabling the app.
+URL: https://artifacthub.io/packages/helm/argo/argo-cd
+
+Argo Events Helm chart page:
+
+URL: https://artifacthub.io/packages/helm/argo/argo-events
+
+Argo Workflows Helm chart page:
+
+URL: https://artifacthub.io/packages/helm/argo/argo-workflows
+
+External Secrets Helm chart page:
+
+URL: https://artifacthub.io/packages/helm/external-secrets-operator/external-secrets
+
+Here's How It Will Work:
+The script will fetch the HTML content of each URL.
+
+It will then look for the version number within the HTML content. The version is typically mentioned in the page title or somewhere visible on the page.
+
+The script will output the name of each Helm chart and its latest version in a clean, readable table format.
